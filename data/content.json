@@ -1,0 +1,153 @@
+{
+  "brand": {
+    "name": "Valko's Mobile Detailing",
+    "shortName": "Valko's",
+    "tagline": "We come to you.",
+    "logo": "/media/brand/logo.jpg",
+    "pricingCard": "/media/brand/pricing-card.jpg"
+  },
+  "contact": {
+    "instagram": "https://www.instagram.com/valko_mobiledetailing/",
+    "instagramHandle": "@valko_mobiledetailing",
+    "email": null,
+    "phone": null,
+    "serviceAreaShort": "Greater Toronto Area",
+    "serviceAreaCities": ["Toronto", "Scarborough", "Pickering", "North York", "Markham"]
+  },
+  "hero": {
+    "kicker": "Mobile Detailing · GTA",
+    "headlineLines": ["Professional", "Detail."],
+    "headlineAccent": "At your driveway.",
+    "subline": "Mobile interior + exterior detailing across the Greater Toronto Area. Student-owned, premium products, satisfaction focused.",
+    "primaryCta": { "label": "Book on Instagram", "href": "https://www.instagram.com/valko_mobiledetailing/" },
+    "secondaryCta": { "label": "See the transformation", "href": "#before-after" },
+    "image": "/media/gallery/blue-bmw-sedan.jpg",
+    "imageAlt": "Glossy blue BMW sedan freshly detailed in a residential driveway"
+  },
+  "whyValko": [
+    { "title": "Student-Owned", "blurb": "Local hustle, hands-on care, fair pricing." },
+    { "title": "Premium Products", "blurb": "Upgraded chemicals and microfibers, not gas-station stuff." },
+    { "title": "Affordable + Quality", "blurb": "Pro-level results without dealership prices." },
+    { "title": "We Come To You", "blurb": "Driveway, condo lot, office — we'll be there." },
+    { "title": "Satisfaction Focused", "blurb": "If something's not right, we make it right." }
+  ],
+  "process": [
+    { "step": "01", "title": "DM us", "blurb": "Send a quick message on Instagram with your car + service of interest." },
+    { "step": "02", "title": "Get a quote", "blurb": "We confirm timing, price, and the exact services for your vehicle." },
+    { "step": "03", "title": "We arrive", "blurb": "Truck + tools roll up to your driveway. You don't lift a finger." },
+    { "step": "04", "title": "Drive away clean", "blurb": "Inspect with us, pay on the spot, enjoy the gloss." }
+  ],
+  "services": [
+    {
+      "name": "Exterior Wash",
+      "startingPrice": 50,
+      "blurb": "Hand wash, wheel + tire treatment, rinse, microfiber dry.",
+      "includes": ["Two-bucket hand wash", "Wheel & tire scrub", "Streak-free dry", "Glass clean"]
+    },
+    {
+      "name": "Interior Detail",
+      "startingPrice": 90,
+      "blurb": "Deep vacuum, surface wipe-down, glass, and floor mats reset.",
+      "includes": ["Full vacuum", "Dash + console wipe", "Glass cleaned", "Floor mats washed"]
+    },
+    {
+      "name": "Full Detail",
+      "startingPrice": 140,
+      "blurb": "Exterior wash + interior detail combined. Our most popular package.",
+      "includes": ["Everything in Exterior Wash", "Everything in Interior Detail", "Door jambs & sills", "Tire dressing"],
+      "featured": true
+    },
+    {
+      "name": "Premium Detail",
+      "startingPrice": 180,
+      "blurb": "Deep clean inside and out with extras like wax and stain treatment.",
+      "includes": ["Everything in Full Detail", "Wax / exterior protection", "Spot stain treatment", "Plastic + trim refresh"]
+    }
+  ],
+  "addOns": [
+    { "name": "Pet Hair & Stain Removal", "blurb": "Specialty extraction for fur and set-in stains." },
+    { "name": "Wax & Exterior Protection", "blurb": "Hand-applied wax for gloss and bead-up." }
+  ],
+  "pricingDisclaimer": "Prices may vary depending on vehicle size and condition. Trucks, SUVs, and heavily soiled interiors will be quoted up front.",
+  "beforeAfter": {
+    "intro": "Real work, real results. One Ford F-150 work-truck job, top-to-bottom.",
+    "pairs": [
+      {
+        "id": "front-cabin",
+        "label": "Front Cabin",
+        "blurb": "Cloth seats vacuumed and steamed, sill wiped, dash refreshed.",
+        "before": "/media/before-after/f150-front-before.jpg",
+        "after": "/media/before-after/f150-front-after.jpg",
+        "width": 720,
+        "height": 960
+      },
+      {
+        "id": "floor-mats",
+        "label": "Floor Mats",
+        "blurb": "Caked dirt extracted, mats deep-cleaned and reinstalled.",
+        "before": "/media/before-after/f150-mats-before.jpg",
+        "after": "/media/before-after/f150-mats-after.jpg",
+        "width": 720,
+        "height": 960
+      },
+      {
+        "id": "rear-cabin",
+        "label": "Rear Cabin",
+        "blurb": "Carpet vacuumed, shampooed, and mats reinstalled clean.",
+        "before": "/media/before-after/f150-rear-before.jpg",
+        "after": "/media/before-after/f150-rear-after.jpg",
+        "width": 720,
+        "height": 960
+      }
+    ]
+  },
+  "gallery": [
+    { "kind": "image", "src": "/media/gallery/f150-exterior-three-quarter.jpg", "alt": "Finished white Ford F-150 XLT, front three-quarter view", "span": "wide" },
+    { "kind": "video", "src": "/media/videos/blue-bmw.mp4", "poster": "/media/videos/blue-bmw.jpg", "alt": "Blue BMW sedan detail walkaround" },
+    { "kind": "video", "src": "/media/videos/bmw-interior.mp4", "poster": "/media/videos/bmw-interior.jpg", "alt": "BMW brown leather interior detail" },
+    { "kind": "image", "src": "/media/gallery/f150-side-with-rack.jpg", "alt": "White F-150 side profile with ladder rack and LEER canopy" },
+    { "kind": "video", "src": "/media/videos/santa-fe-exterior.mp4", "poster": "/media/videos/santa-fe-exterior.jpg", "alt": "Hyundai Santa Fe exterior detail" },
+    { "kind": "video", "src": "/media/videos/audi-q3.mp4", "poster": "/media/videos/audi-q3.jpg", "alt": "Audi Q3 interior floor mat detail" },
+    { "kind": "image", "src": "/media/gallery/f150-rear-quarter.jpg", "alt": "White F-150 rear three-quarter, finished detail" },
+    { "kind": "video", "src": "/media/videos/pressure-wash.mp4", "poster": "/media/videos/pressure-wash.jpg", "alt": "Pressure-washer setup at a customer driveway" },
+    { "kind": "video", "src": "/media/videos/f150-carousel.mp4", "poster": "/media/videos/f150-carousel.jpg", "alt": "F-150 detail job highlight reel" }
+  ],
+  "about": {
+    "quote": "WE come to YOU. Book with us today and support local business serving the GTA.",
+    "body": "Valko's Mobile Detailing is a student-run mobile car detailing service based in Scarborough, serving the Greater Toronto Area. Every booking shows up with upgraded products and the same standard whether it's a daily driver or a work truck.",
+    "instagramFollowersNote": null
+  },
+  "faq": [
+    {
+      "q": "Does pricing vary by vehicle size?",
+      "a": "Yes. Listed prices are starting prices and reflect a standard sedan in average condition. Larger vehicles (SUVs, trucks, vans) and heavily soiled interiors will be quoted up front before any work begins — no surprises."
+    },
+    {
+      "q": "What do you need from me on-site?",
+      "a": "Ideally access to an outdoor water tap and a standard power outlet. If neither is available, DM us — we can arrange a waterless or water-supplied option for an extra fee."
+    },
+    {
+      "q": "What if it rains on the day of my booking?",
+      "a": "We'll reach out to reschedule at no charge. Interior-only services can usually still go ahead under cover."
+    },
+    {
+      "q": "Do you offer ceramic coating or headlight restoration?",
+      "a": "DM to inquire — we can refer or schedule depending on the job. Not on the standard menu yet."
+    },
+    {
+      "q": "How do I pay?",
+      "a": "E-transfer or cash on the spot after you've inspected the finished work."
+    }
+  ],
+  "contactSection": {
+    "headline": "Ready to book?",
+    "body": "Send the booking details and we'll follow up with timing, pricing, and next steps.",
+    "primaryCta": { "label": "DM @valko_mobiledetailing", "href": "https://www.instagram.com/valko_mobiledetailing/" },
+    "formEndpoint": "https://formspree.io/f/YOUR_FORM_ID",
+    "formNote": "Prefer Instagram? You can still DM us for the fastest back-and-forth."
+  },
+  "footer": {
+    "credit": "Built with care for a local business.",
+    "year": 2026
+  }
+}

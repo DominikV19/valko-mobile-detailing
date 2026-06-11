@@ -1,0 +1,404 @@
+{
+  "brand": {
+    "display_name": "Valko's Mobile Detailing",
+    "short_name": "Valko's Detailing",
+    "tagline": "We come to you.",
+    "color_palette_hint": "Dark navy/charcoal background with blue accents (per existing brand graphic + profile pic).",
+    "logo_files": {
+      "profile_pic": "assets/profile/profile.jpg",
+      "brand_graphic_with_pricing": "assets/posts/DYldGi6NjNj/photo_01.jpg"
+    }
+  },
+  "instagram_profile": {
+    "username": "valko_mobiledetailing",
+    "full_name": "Valko\u2019s mobile detailing",
+    "bio": "WE come to YOU. Book with us today and support local business serving the GTA\ud83d\udccd",
+    "followers": 29,
+    "posts_count": 7,
+    "url": "https://www.instagram.com/valko_mobiledetailing/",
+    "service_area": "Greater Toronto Area (Scarborough / Toronto / Pickering)"
+  },
+  "contact": {
+    "email": null,
+    "phone": null,
+    "booking_url": null,
+    "instagram_dm": "https://www.instagram.com/valko_mobiledetailing/",
+    "note": "Bookings via Instagram DM per captions ('Message us to book'). Email/phone/booking URL not provided in IG profile - ask client."
+  },
+  "services": [
+    {
+      "name": "Exterior Wash",
+      "starting_price_cad": 50,
+      "blurb": "Hand wash, rinse and dry. Wheels and tires included."
+    },
+    {
+      "name": "Interior Detail",
+      "starting_price_cad": 90,
+      "blurb": "Full vacuum, surface wipe-down, glass, floor mats."
+    },
+    {
+      "name": "Full Detail (Interior + Exterior)",
+      "starting_price_cad": 140,
+      "blurb": "Combined exterior wash and interior detail."
+    },
+    {
+      "name": "Premium Detail",
+      "starting_price_cad": 180,
+      "blurb": "Deep interior + exterior with extras like wax and stain treatment."
+    }
+  ],
+  "add_ons": [
+    "Pet Hair & Stain Removal",
+    "Wax & Exterior Protection"
+  ],
+  "why_choose_us": [
+    "Student-owned",
+    "Premium products",
+    "Affordable + quality",
+    "Mobile service - we come to you",
+    "Satisfaction focused"
+  ],
+  "pricing_disclaimer": "Prices may vary depending on vehicle size & condition.",
+  "before_after_pairs": [
+    {
+      "pair_id": "f150_front_cabin",
+      "label": "Front cabin - dirty seats & sill",
+      "before": "assets/posts/DL0SZ-cRF1m/photo_01.jpg",
+      "after": "assets/posts/DL0SZ-cRF1m/photo_03.jpg"
+    },
+    {
+      "pair_id": "f150_floor_mats",
+      "label": "All-weather floor mats - caked dirt removed",
+      "before": "assets/posts/DL0SZ-cRF1m/photo_02.jpg",
+      "after": "assets/posts/DL0SZ-cRF1m/photo_04.jpg"
+    },
+    {
+      "pair_id": "f150_rear_cabin",
+      "label": "Rear cabin floor - vacuumed & shampooed",
+      "before": "assets/posts/DL0SZ-cRF1m/photo_05.jpg",
+      "after": "assets/posts/DL0SZ-cRF1m/photo_06.jpg"
+    }
+  ],
+  "hero_candidates": [
+    "assets/posts/DL0SZ-cRF1m/photo_08.jpg",
+    "assets/posts/DL-vuXpR_dd/photo_01.jpg",
+    "assets/posts/DL0SZ-cRF1m/photo_10.jpg"
+  ],
+  "gallery_pool": [
+    "assets/posts/DL0SZ-cRF1m/photo_07.jpg",
+    "assets/posts/DL0SZ-cRF1m/photo_08.jpg",
+    "assets/posts/DL0SZ-cRF1m/photo_09.jpg",
+    "assets/posts/DL0SZ-cRF1m/photo_10.jpg",
+    "assets/posts/DXahs3IjdYp/photo_01.jpg",
+    "assets/posts/DQndxkrDE2E/photo_01.jpg",
+    "assets/posts/DL-vuXpR_dd/photo_01.jpg"
+  ],
+  "videos": [
+    "assets/posts/DXahs3IjdYp/video_01.mp4",
+    "assets/posts/DL0QV0WRpcV/video_01.mp4",
+    "assets/posts/DX8L8K0Na5N/video_01.mp4",
+    "assets/posts/DQndxkrDE2E/video_01.mp4",
+    "assets/posts/DL-vuXpR_dd/video_01.mp4",
+    "assets/posts/DL0SZ-cRF1m/video_01.mp4"
+  ],
+  "posts": [
+    {
+      "shortcode": "DXahs3IjdYp",
+      "instagram_url": "https://www.instagram.com/p/DXahs3IjdYp/",
+      "content_type": "Reel",
+      "product_type": "clips",
+      "date_posted": "2026-04-22T00:52:49.000Z",
+      "likes": 10,
+      "num_comments": 0,
+      "caption": "Mirror finish everytime\ud83e\udd29",
+      "location": [
+        "West Rouge"
+      ],
+      "media": [
+        {
+          "file": "assets/posts/DXahs3IjdYp/photo_01.jpg",
+          "filename": "photo_01.jpg",
+          "type": "image",
+          "kind": "video_thumbnail",
+          "subject": "interior detail - BMW",
+          "description": "BMW steering wheel and rich brown perforated leather seats. House #40 and a Canadian flag visible through windshield. 'Detail time' text overlay. Premium-looking interior shot.",
+          "suggested_use": "interior_service_card, gallery"
+        },
+        {
+          "file": "assets/posts/DXahs3IjdYp/video_01.mp4",
+          "filename": "video_01.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "shortcode": "DL0QV0WRpcV",
+      "instagram_url": "https://www.instagram.com/p/DL0QV0WRpcV/",
+      "content_type": "Reel",
+      "product_type": "clips",
+      "date_posted": "2025-07-07T18:23:55.000Z",
+      "likes": 10,
+      "num_comments": 1,
+      "caption": "Book with us today!!! #cardetailing #detailingcars #car",
+      "location": [
+        "Scarborough",
+        "Toronto"
+      ],
+      "media": [
+        {
+          "file": "assets/posts/DL0QV0WRpcV/photo_01.jpg",
+          "filename": "photo_01.jpg",
+          "type": "image",
+          "kind": "video_thumbnail",
+          "subject": "interior - dirty floor mat (Audi Q3)",
+          "description": "Driver footwell of an Audi Q3 showing a heavily soiled rubber 'Q3' floor mat with caked dirt. Black leather seat and dashboard visible. Strong 'before' shot.",
+          "suggested_use": "stain_removal_card, problem_imagery"
+        },
+        {
+          "file": "assets/posts/DL0QV0WRpcV/video_01.mp4",
+          "filename": "video_01.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "shortcode": "DX8L8K0Na5N",
+      "instagram_url": "https://www.instagram.com/p/DX8L8K0Na5N/",
+      "content_type": "Reel",
+      "product_type": "clips",
+      "date_posted": "2026-05-05T02:37:29.000Z",
+      "likes": 5,
+      "num_comments": 0,
+      "caption": "#Scarborough #cardetailing #car #fresh",
+      "location": [
+        "Scarborough",
+        "Toronto"
+      ],
+      "media": [
+        {
+          "file": "assets/posts/DX8L8K0Na5N/photo_01.jpg",
+          "filename": "photo_01.jpg",
+          "type": "image",
+          "kind": "video_thumbnail",
+          "subject": "exterior wash in progress",
+          "description": "First-person view of pressure washer hose and extension cords on a driveway. White car front with Ontario plate BRJC 238 visible at top. Conveys real on-site work.",
+          "suggested_use": "process_section_video, behind_the_scenes"
+        },
+        {
+          "file": "assets/posts/DX8L8K0Na5N/video_01.mp4",
+          "filename": "video_01.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "shortcode": "DYldGi6NjNj",
+      "instagram_url": "https://www.instagram.com/p/DYldGi6NjNj/",
+      "content_type": "Image",
+      "product_type": null,
+      "date_posted": "2026-05-21T03:16:56.000Z",
+      "likes": 7,
+      "num_comments": 0,
+      "caption": "Valko\u2019s Detailing is now taking bookings again.\n\nWe provide mobile interior and exterior detailing across Toronto using upgraded products and professional-quality service.\n\nServices include:\n\u2022 Exterior Washes\n\u2022 Interior Details\n\u2022 Full Details\n\u2022 Pet Hair & Stain Removal\n\u2022 Wax & Exterior Protection\n\nMobile service \u2014 we come directly to you.\n\nMessage us to book an appointment or for pricing information.",
+      "location": [
+        "Scarborough",
+        "Toronto"
+      ],
+      "media": [
+        {
+          "file": "assets/posts/DYldGi6NjNj/photo_01.jpg",
+          "filename": "photo_01.jpg",
+          "type": "image",
+          "kind": "brand_graphic",
+          "subject": "pricing card",
+          "description": "Designed pricing card. Dark background, blue accents. White car-with-sparkles icon. Black BMW sedan on right. Lists services + starting prices and 'Why choose us' bullets. Already on-brand.",
+          "suggested_use": "pricing_section_source_of_truth, fallback_pricing_graphic"
+        }
+      ]
+    },
+    {
+      "shortcode": "DQndxkrDE2E",
+      "instagram_url": "https://www.instagram.com/p/DQndxkrDE2E/",
+      "content_type": "Reel",
+      "product_type": "clips",
+      "date_posted": "2025-11-04T01:50:21.000Z",
+      "likes": 7,
+      "num_comments": 2,
+      "caption": "Local car detailing\ud83d\ude42",
+      "location": [
+        "Scarborough",
+        "Toronto"
+      ],
+      "media": [
+        {
+          "file": "assets/posts/DQndxkrDE2E/photo_01.jpg",
+          "filename": "photo_01.jpg",
+          "type": "image",
+          "kind": "video_thumbnail",
+          "subject": "exterior detail - Hyundai Santa Fe",
+          "description": "Three-quarter front view of a clean dark-grey Hyundai Santa Fe SUV. Suburban street. Crisp wheels and gloss paint.",
+          "suggested_use": "exterior_service_card, gallery"
+        },
+        {
+          "file": "assets/posts/DQndxkrDE2E/video_01.mp4",
+          "filename": "video_01.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "shortcode": "DL-vuXpR_dd",
+      "instagram_url": "https://www.instagram.com/p/DL-vuXpR_dd/",
+      "content_type": "Reel",
+      "product_type": "clips",
+      "date_posted": "2025-07-11T20:14:04.000Z",
+      "likes": 5,
+      "num_comments": 0,
+      "caption": "Book an affordable car detailing today!!! #mobiledetailing #detailingcars #car #cardetailing #scarborough",
+      "location": [
+        "Scarborough",
+        "Toronto"
+      ],
+      "media": [
+        {
+          "file": "assets/posts/DL-vuXpR_dd/photo_01.jpg",
+          "filename": "photo_01.jpg",
+          "type": "image",
+          "kind": "video_thumbnail",
+          "subject": "exterior + interior detail - BMW sedan",
+          "description": "Bright blue BMW sedan in a driveway with rear door open showing tan/cream leather interior. Fall foliage. Strong gloss, dark grey wheels. Could anchor a 'full detail' visual.",
+          "suggested_use": "full_detail_service_card, hero_candidate, gallery"
+        },
+        {
+          "file": "assets/posts/DL-vuXpR_dd/video_01.mp4",
+          "filename": "video_01.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "shortcode": "DL0SZ-cRF1m",
+      "instagram_url": "https://www.instagram.com/p/DL0SZ-cRF1m/",
+      "content_type": "Carousel",
+      "product_type": null,
+      "date_posted": "2025-07-07T18:41:22.000Z",
+      "likes": 8,
+      "num_comments": 0,
+      "caption": "Swipe for results\ud83d\ude04 #mobiledetailing #worktruck #detailingcars #cardetailing #car",
+      "location": [
+        "Pickering",
+        "Ontario"
+      ],
+      "media": [
+        {
+          "file": "assets/posts/DL0SZ-cRF1m/photo_01.jpg",
+          "filename": "photo_01.jpg",
+          "type": "image",
+          "kind": "before",
+          "subject": "front cabin (driver side) - Ford F-150",
+          "pair_id": "f150_front_cabin",
+          "description": "Driver-side door of white Ford F-150 open. Dirty cloth seats and debris on the rocker/sill. Trees in background.",
+          "suggested_use": "before_after_slider_A_before"
+        },
+        {
+          "file": "assets/posts/DL0SZ-cRF1m/photo_02.jpg",
+          "filename": "photo_02.jpg",
+          "type": "image",
+          "kind": "before",
+          "subject": "floor mats removed on grass",
+          "pair_id": "f150_floor_mats",
+          "description": "Two heavily soiled rubber WeatherTech-style floor mats lying on grass beside a crate of cleaning supplies. Shows extraction step.",
+          "suggested_use": "before_after_slider_B_before, process_section"
+        },
+        {
+          "file": "assets/posts/DL0SZ-cRF1m/photo_03.jpg",
+          "filename": "photo_03.jpg",
+          "type": "image",
+          "kind": "after",
+          "subject": "front cabin (driver side) - Ford F-150",
+          "pair_id": "f150_front_cabin",
+          "description": "Same Ford F-150 driver-side door open, now clean: vacuumed seats, polished dash, sill wiped down. Matches photo_01.",
+          "suggested_use": "before_after_slider_A_after"
+        },
+        {
+          "file": "assets/posts/DL0SZ-cRF1m/photo_04.jpg",
+          "filename": "photo_04.jpg",
+          "type": "image",
+          "kind": "after",
+          "subject": "driver footwell with clean mat installed",
+          "pair_id": "f150_floor_mats",
+          "description": "Driver footwell with clean black rubber all-weather mat installed. Pairs with photo_02.",
+          "suggested_use": "before_after_slider_B_after"
+        },
+        {
+          "file": "assets/posts/DL0SZ-cRF1m/photo_05.jpg",
+          "filename": "photo_05.jpg",
+          "type": "image",
+          "kind": "before",
+          "subject": "rear cabin floor",
+          "pair_id": "f150_rear_cabin",
+          "description": "Rear cabin of F-150: dirty carpet, debris, removed floor mat on the right. Rear bench folded up.",
+          "suggested_use": "before_after_slider_C_before"
+        },
+        {
+          "file": "assets/posts/DL0SZ-cRF1m/photo_06.jpg",
+          "filename": "photo_06.jpg",
+          "type": "image",
+          "kind": "after",
+          "subject": "rear cabin floor",
+          "pair_id": "f150_rear_cabin",
+          "description": "Same rear cabin angle, vacuumed and shampooed. Carpet floor mats reinstalled. Matches photo_05.",
+          "suggested_use": "before_after_slider_C_after"
+        },
+        {
+          "file": "assets/posts/DL0SZ-cRF1m/photo_07.jpg",
+          "filename": "photo_07.jpg",
+          "type": "image",
+          "kind": "after_alt_angle",
+          "subject": "rear cabin from passenger side",
+          "description": "Alternate angle of the cleaned rear cabin from the passenger side. Folded rear bench, clean mats, no debris.",
+          "suggested_use": "gallery, secondary_after"
+        },
+        {
+          "file": "assets/posts/DL0SZ-cRF1m/photo_08.jpg",
+          "filename": "photo_08.jpg",
+          "type": "image",
+          "kind": "hero_exterior",
+          "subject": "front three-quarter exterior - Ford F-150 XLT",
+          "description": "Three-quarter front shot of the finished white Ford F-150 XLT. Clean paint, gloss tires, blue sky. Hero-quality.",
+          "suggested_use": "hero_candidate, exterior_service_card, gallery"
+        },
+        {
+          "file": "assets/posts/DL0SZ-cRF1m/photo_09.jpg",
+          "filename": "photo_09.jpg",
+          "type": "image",
+          "kind": "hero_exterior",
+          "subject": "driver side - Ford F-150 with ladder rack/canopy",
+          "description": "Full driver-side profile of the F-150 work truck with LEER canopy and aluminum ladder rack. Showcases capability with utility trucks.",
+          "suggested_use": "work_truck_specialty_card, gallery"
+        },
+        {
+          "file": "assets/posts/DL0SZ-cRF1m/photo_10.jpg",
+          "filename": "photo_10.jpg",
+          "type": "image",
+          "kind": "hero_exterior",
+          "subject": "rear three-quarter - Ford F-150 4x4",
+          "description": "Rear three-quarter of the finished F-150 4x4 with LEER canopy. Clean glass and tail lights. Wide sky background.",
+          "suggested_use": "gallery, secondary_hero"
+        },
+        {
+          "file": "assets/posts/DL0SZ-cRF1m/video_01.mp4",
+          "filename": "video_01.mp4",
+          "type": "video"
+        }
+      ]
+    }
+  ],
+  "open_questions_for_client": [
+    "Booking email and/or phone number?",
+    "Confirm service area (just GTA? specific cities?)",
+    "Any service we're missing (e.g. ceramic coat, headlight restoration)?",
+    "Confirm starting prices are still current.",
+    "Vehicle-size pricing matrix (sedan vs SUV vs truck) - any standard table?"
+  ]
+}
