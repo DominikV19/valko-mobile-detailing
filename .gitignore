@@ -30,6 +30,9 @@ yarn-error.log*
 # local screenshots (regenerated on demand)
 screenshots/
 
+# loose local files
+Secret Dunny - Yanushevi4 Sergey.jpg
+
 # misc
 *.tsbuildinfo
 next-env.d.ts

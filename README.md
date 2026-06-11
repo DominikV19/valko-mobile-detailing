@@ -19,7 +19,7 @@ The contact form posts directly to Formspree. Set this locally or as a GitHub
 repository variable before publishing:
 
 ```bash
-NEXT_PUBLIC_FORMSPREE_ENDPOINT=https://formspree.io/f/YOUR_FORM_ID
+NEXT_PUBLIC_FORMSPREE_ENDPOINT=https://formspree.io/f/mykvnwnz
 ```
 
 The repo includes `.github/workflows/deploy.yml` for GitHub Pages. On pushes to
