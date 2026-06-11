@@ -1,4 +1,5 @@
 import { Oswald, Inter } from 'next/font/google';
+import { withBasePath } from '@/lib/site';
 import './globals.css';
 
 const oswald = Oswald({
@@ -48,7 +49,7 @@ const localBusinessJsonLd = {
   name: "Valko's Mobile Detailing",
   description:
     'Mobile car detailing service offering interior, exterior, and full detail packages across the Greater Toronto Area.',
-  image: '/media/brand/logo.jpg',
+  image: withBasePath('/media/brand/logo.jpg'),
   url: 'https://valko-detailing.example.com',
   telephone: '',
   priceRange: '$$',

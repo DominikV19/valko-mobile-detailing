@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { about, contact } from '@/lib/content';
+import { withBasePath } from '@/lib/site';
 
 export default function About() {
   return (
@@ -20,7 +21,7 @@ export default function About() {
           }}
         >
           <Image
-            src="/media/toronto-map.png"
+            src={withBasePath('/media/toronto-map.png')}
             alt=""
             fill
             sizes="100vw"

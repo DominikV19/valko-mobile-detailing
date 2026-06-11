@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { hero } from '@/lib/content';
+import { withBasePath } from '@/lib/site';
 
 export default function Hero() {
   return (
@@ -28,7 +29,7 @@ export default function Hero() {
           }}
         >
           <Image
-            src={hero.image}
+            src={withBasePath(hero.image)}
             alt={hero.imageAlt}
             fill
             priority

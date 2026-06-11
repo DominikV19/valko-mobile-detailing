@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
+import { withBasePath } from '@/lib/site';
 
 export default function BeforeAfterSlider({
   before,
@@ -76,7 +77,7 @@ export default function BeforeAfterSlider({
     >
       {/* AFTER (full size, beneath) */}
       <Image
-        src={after}
+        src={withBasePath(after)}
         alt={`${alt} — after`}
         fill
         sizes="(max-width: 768px) 100vw, 50vw"
@@ -95,7 +96,7 @@ export default function BeforeAfterSlider({
         aria-hidden="true"
       >
         <Image
-          src={before}
+          src={withBasePath(before)}
           alt=""
           fill
           sizes="(max-width: 768px) 100vw, 50vw"

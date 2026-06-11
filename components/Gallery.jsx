@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { gallery } from '@/lib/content';
+import { withBasePath } from '@/lib/site';
 
 function GalleryTile({ item }) {
   const wide = item.span === 'wide';
@@ -15,7 +16,7 @@ function GalleryTile({ item }) {
     return (
       <figure className={wrapClass}>
         <Image
-          src={item.src}
+          src={withBasePath(item.src)}
           alt={item.alt}
           fill
           sizes={sizes}
@@ -29,8 +30,8 @@ function GalleryTile({ item }) {
   return (
     <figure className={wrapClass}>
       <video
-        src={item.src}
-        poster={item.poster}
+        src={withBasePath(item.src)}
+        poster={withBasePath(item.poster)}
         autoPlay
         muted
         loop

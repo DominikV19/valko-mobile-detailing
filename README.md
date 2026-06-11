@@ -24,7 +24,9 @@ NEXT_PUBLIC_FORMSPREE_ENDPOINT=https://formspree.io/f/YOUR_FORM_ID
 
 The repo includes `.github/workflows/deploy.yml` for GitHub Pages. On pushes to
 `main`, it runs `npm ci`, builds the static export into `out/`, and deploys it.
-If a custom domain is used, add `public/CNAME` with the exact domain name.
+For a project-page URL like `/valko-mobile-detailing`, set
+`NEXT_PUBLIC_BASE_PATH=/valko-mobile-detailing`. If a custom domain is used,
+remove that base path variable and add `public/CNAME` with the exact domain name.
 
 ## Asset pipeline
 

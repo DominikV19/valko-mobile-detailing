@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import { brand, contact } from '@/lib/content';
+import { withBasePath } from '@/lib/site';
 
 const LINKS = [
   { href: '#services', label: 'Services' },
@@ -34,7 +35,7 @@ export default function Nav() {
         <a href="#top" className="flex items-center gap-3 group">
           <span className="relative h-10 w-10 overflow-hidden rounded-lg border border-ink-3 bg-ink-2">
             <Image
-              src={brand.logo}
+              src={withBasePath(brand.logo)}
               alt=""
               fill
               sizes="40px"
