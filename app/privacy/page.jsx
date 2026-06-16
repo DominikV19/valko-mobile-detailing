@@ -38,8 +38,9 @@ export default function PrivacyPage() {
               <p className="mt-3 text-muted">
                 We collect only the information you choose to submit through the
                 booking request form. The form currently asks for your name, email
-                address, phone number, vehicle details, selected service, and any
-                extra message you include.
+                address, phone number, vehicle details, preferred booking date,
+                preferred booking time, selected service, and any extra message
+                you include.
               </p>
               <p className="mt-3 text-muted">
                 The form also sends a subject line for the booking request and uses

@@ -1,7 +1,24 @@
+'use client';
+
+import { useState } from 'react';
 import { contactSection } from '@/lib/content';
 import { withBasePath } from '@/lib/site';
 
+const fieldClass =
+  'rounded-xl border border-ink-3 bg-ink/60 px-4 py-3 text-sm text-bone placeholder:text-muted outline-none transition focus:border-accent';
+
+const labelClass = 'grid gap-1.5 text-xs font-medium uppercase tracking-wider text-muted';
+
+function formatPhone(value) {
+  const digits = value.replace(/\D/g, '').slice(0, 10);
+
+  if (digits.length < 4) return digits;
+  if (digits.length < 7) return `(${digits.slice(0, 3)}) ${digits.slice(3)}`;
+  return `(${digits.slice(0, 3)}) ${digits.slice(3, 6)}-${digits.slice(6)}`;
+}
+
 export default function Contact() {
+  const [phone, setPhone] = useState('');
   const formEndpoint =
     process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT ||
     contactSection.formEndpoint;
@@ -55,7 +72,7 @@ export default function Contact() {
                 placeholder="Your name"
                 autoComplete="name"
                 required
-                className="rounded-xl border border-ink-3 bg-ink/60 px-4 py-3 text-sm text-bone placeholder:text-muted outline-none transition focus:border-accent"
+                className={fieldClass}
               />
               <input
                 type="email"
@@ -63,27 +80,51 @@ export default function Contact() {
                 placeholder="Email"
                 autoComplete="email"
                 required
-                className="rounded-xl border border-ink-3 bg-ink/60 px-4 py-3 text-sm text-bone placeholder:text-muted outline-none transition focus:border-accent"
+                className={fieldClass}
               />
-              <input
-                type="tel"
-                name="phone"
-                placeholder="Phone"
-                autoComplete="tel"
-                className="rounded-xl border border-ink-3 bg-ink/60 px-4 py-3 text-sm text-bone placeholder:text-muted outline-none transition focus:border-accent"
-              />
+              <label className={labelClass}>
+                Phone
+                <input
+                  type="tel"
+                  name="phone"
+                  value={phone}
+                  placeholder="(416) 555-0123"
+                  autoComplete="tel"
+                  inputMode="tel"
+                  maxLength={14}
+                  onChange={(e) => setPhone(formatPhone(e.target.value))}
+                  className={`${fieldClass} normal-case tracking-normal`}
+                />
+              </label>
               <input
                 type="text"
                 name="vehicle"
                 placeholder="Vehicle (year, make, model)"
                 required
-                className="rounded-xl border border-ink-3 bg-ink/60 px-4 py-3 text-sm text-bone placeholder:text-muted outline-none transition focus:border-accent"
+                className={fieldClass}
               />
+              <label className={labelClass}>
+                Preferred date
+                <input
+                  type="date"
+                  name="preferred_date"
+                  className={`${fieldClass} normal-case tracking-normal`}
+                />
+              </label>
+              <label className={labelClass}>
+                Preferred time
+                <input
+                  type="time"
+                  name="preferred_time"
+                  step="1800"
+                  className={`${fieldClass} normal-case tracking-normal`}
+                />
+              </label>
               <select
                 name="service"
                 required
                 defaultValue=""
-                className="rounded-xl border border-ink-3 bg-ink/60 px-4 py-3 text-sm text-bone outline-none transition focus:border-accent sm:col-span-2"
+                className={`${fieldClass} sm:col-span-2`}
               >
                 <option value="" disabled>Select a service...</option>
                 <option>Exterior Wash</option>
@@ -97,7 +138,7 @@ export default function Contact() {
                 name="message"
                 placeholder="Anything we should know? (pet hair, stains, deep clean…)"
                 rows={4}
-                className="rounded-xl border border-ink-3 bg-ink/60 px-4 py-3 text-sm text-bone placeholder:text-muted outline-none transition focus:border-accent sm:col-span-2"
+                className={`${fieldClass} sm:col-span-2`}
               />
               <button
                 type="submit"
