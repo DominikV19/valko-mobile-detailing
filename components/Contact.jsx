@@ -1,4 +1,5 @@
 import { contactSection } from '@/lib/content';
+import { withBasePath } from '@/lib/site';
 
 export default function Contact() {
   const formEndpoint =
@@ -105,6 +106,13 @@ export default function Contact() {
               >
                 Send booking request
               </button>
+              <p className="text-xs text-muted sm:col-span-2">
+                By submitting this form, you agree to our{' '}
+                <a href={withBasePath('/privacy')} className="text-accent hover:text-accent-glow">
+                  Privacy Policy
+                </a>
+                .
+              </p>
               {!isConfigured && (
                 <p className="text-xs text-muted sm:col-span-2">
                   Add NEXT_PUBLIC_FORMSPREE_ENDPOINT with the Formspree form URL before publishing.

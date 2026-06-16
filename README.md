@@ -4,6 +4,13 @@ Single-page marketing site for [@valko_mobiledetailing](https://www.instagram.co
 
 **Stack:** Next.js 14 (App Router) · React 18 · Tailwind CSS 3 · JavaScript
 
+## License
+
+This repository is public for GitHub Pages publishing, but it is not open-source.
+The code and assets may be viewed for educational purposes only. They may not be
+copied, reused, modified, hosted, or adapted for commercial projects, client
+projects, personal projects, templates, or other websites. See [LICENSE](LICENSE).
+
 ## Run it
 
 ```bash
@@ -60,7 +67,6 @@ Touch only `data/content.json`. Hero copy, services, pricing, FAQ, gallery list 
 
 ## Open items (waiting on client)
 
-- Real Formspree endpoint / form ID
 - Booking phone, if it should be shown publicly
 - Custom domain for `public/CNAME`
 - Confirm/refine service-area cities (currently Toronto · Scarborough · Pickering · North York · Markham)

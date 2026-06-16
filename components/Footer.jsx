@@ -1,4 +1,5 @@
 import { brand, contact, footer } from '@/lib/content';
+import { withBasePath } from '@/lib/site';
 
 export default function Footer() {
   return (
@@ -50,7 +51,12 @@ export default function Footer() {
 
         <div className="mt-10 flex flex-col gap-3 border-t border-ink-3/60 pt-6 text-xs text-muted sm:flex-row sm:items-center sm:justify-between">
           <p>© {footer.year} {brand.name}. All rights reserved.</p>
-          <p>{footer.credit}</p>
+          <div className="flex flex-wrap gap-x-4 gap-y-2">
+            <a href={withBasePath('/privacy')} className="hover:text-accent">
+              Privacy Policy
+            </a>
+            <p>{footer.credit}</p>
+          </div>
         </div>
       </div>
     </footer>
