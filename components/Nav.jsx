@@ -6,10 +6,10 @@ import { brand, contact } from '@/lib/content';
 import { withBasePath } from '@/lib/site';
 
 const LINKS = [
-  { href: '#services', label: 'Services' },
-  { href: '#before-after', label: 'Before / After' },
-  { href: '#gallery', label: 'Gallery' },
-  { href: '#faq', label: 'FAQ' },
+  { href: withBasePath('/#services'), label: 'Services' },
+  { href: withBasePath('/#before-after'), label: 'Before / After' },
+  { href: withBasePath('/#gallery'), label: 'Gallery' },
+  { href: withBasePath('/#faq'), label: 'FAQ' },
 ];
 
 export default function Nav() {
@@ -32,7 +32,7 @@ export default function Nav() {
       }`}
     >
       <div className="container-page flex h-16 items-center justify-between md:h-20">
-        <a href="#top" className="flex items-center gap-3 group">
+        <a href={withBasePath('/#top')} className="flex items-center gap-3 group">
           <span className="relative h-10 w-10 overflow-hidden rounded-lg border border-ink-3 bg-ink-2">
             <Image
               src={withBasePath(brand.logo)}

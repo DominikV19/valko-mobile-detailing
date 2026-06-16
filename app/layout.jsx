@@ -17,7 +17,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  metadataBase: new URL('https://valko-detailing.example.com'),
+  metadataBase: new URL('https://valkosdetailing.com'),
   title: "Valko's Mobile Detailing — Toronto / GTA Car Detailing",
   description:
     'Mobile interior + exterior car detailing across the Greater Toronto Area. Student-owned, premium products, satisfaction focused. We come to you.',
@@ -50,7 +50,7 @@ const localBusinessJsonLd = {
   description:
     'Mobile car detailing service offering interior, exterior, and full detail packages across the Greater Toronto Area.',
   image: withBasePath('/media/brand/logo.jpg'),
-  url: 'https://valko-detailing.example.com',
+  url: 'https://valkosdetailing.com',
   telephone: '',
   priceRange: '$$',
   areaServed: [

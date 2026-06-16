@@ -17,10 +17,10 @@ export default function Footer() {
             <div>
               <p className="text-xs uppercase tracking-wider text-muted">Service</p>
               <ul className="mt-3 space-y-2 text-bone">
-                <li><a href="#services" className="hover:text-accent">Services</a></li>
-                <li><a href="#before-after" className="hover:text-accent">Before / After</a></li>
-                <li><a href="#gallery" className="hover:text-accent">Gallery</a></li>
-                <li><a href="#faq" className="hover:text-accent">FAQ</a></li>
+                <li><a href={withBasePath('/#services')} className="hover:text-accent">Services</a></li>
+                <li><a href={withBasePath('/#before-after')} className="hover:text-accent">Before / After</a></li>
+                <li><a href={withBasePath('/#gallery')} className="hover:text-accent">Gallery</a></li>
+                <li><a href={withBasePath('/#faq')} className="hover:text-accent">FAQ</a></li>
               </ul>
             </div>
             <div>
