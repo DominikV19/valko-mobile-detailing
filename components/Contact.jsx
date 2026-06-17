@@ -17,8 +17,16 @@ function formatPhone(value) {
   return `(${digits.slice(0, 3)}) ${digits.slice(3, 6)}-${digits.slice(6)}`;
 }
 
+function formatPostalCode(value) {
+  const chars = value.replace(/[^a-z0-9]/gi, '').toUpperCase().slice(0, 6);
+
+  if (chars.length < 4) return chars;
+  return `${chars.slice(0, 3)} ${chars.slice(3)}`;
+}
+
 export default function Contact() {
   const [phone, setPhone] = useState('');
+  const [postalCode, setPostalCode] = useState('');
   const formEndpoint =
     process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT ||
     contactSection.formEndpoint;
@@ -120,6 +128,77 @@ export default function Contact() {
                   className={`${fieldClass} normal-case tracking-normal`}
                 />
               </label>
+              <div className="grid gap-3 sm:col-span-2 sm:grid-cols-2">
+                <label className={`${labelClass} sm:col-span-2`}>
+                  Service address
+                  <input
+                    type="text"
+                    name="address_line_1"
+                    placeholder="Street address"
+                    autoComplete="address-line1"
+                    required
+                    className={`${fieldClass} normal-case tracking-normal`}
+                  />
+                </label>
+                <label className={labelClass}>
+                  Unit / buzzer
+                  <input
+                    type="text"
+                    name="address_line_2"
+                    placeholder="Apt, suite, unit"
+                    autoComplete="address-line2"
+                    className={`${fieldClass} normal-case tracking-normal`}
+                  />
+                </label>
+                <label className={labelClass}>
+                  City
+                  <input
+                    type="text"
+                    name="address_city"
+                    placeholder="Scarborough"
+                    autoComplete="address-level2"
+                    list="service-area-cities"
+                    required
+                    className={`${fieldClass} normal-case tracking-normal`}
+                  />
+                </label>
+                <label className={labelClass}>
+                  Province
+                  <select
+                    name="address_province"
+                    autoComplete="address-level1"
+                    defaultValue="Ontario"
+                    required
+                    className={`${fieldClass} normal-case tracking-normal`}
+                  >
+                    <option>Ontario</option>
+                  </select>
+                </label>
+                <label className={labelClass}>
+                  Postal code
+                  <input
+                    type="text"
+                    name="address_postal_code"
+                    value={postalCode}
+                    placeholder="M1B 2K4"
+                    autoComplete="postal-code"
+                    inputMode="text"
+                    maxLength={7}
+                    pattern="[A-Z][0-9][A-Z] [0-9][A-Z][0-9]"
+                    title="Use a Canadian postal code like M1B 2K4"
+                    required
+                    onChange={(e) => setPostalCode(formatPostalCode(e.target.value))}
+                    className={`${fieldClass} normal-case tracking-normal`}
+                  />
+                </label>
+                <datalist id="service-area-cities">
+                  <option value="Toronto" />
+                  <option value="Scarborough" />
+                  <option value="Pickering" />
+                  <option value="North York" />
+                  <option value="Markham" />
+                </datalist>
+              </div>
               <select
                 name="service"
                 required

@@ -7,7 +7,7 @@ export const metadata = {
     "Privacy policy for Valko's Mobile Detailing booking form and website.",
 };
 
-const updated = 'June 16, 2026';
+const updated = 'June 17, 2026';
 
 export default function PrivacyPage() {
   return (
@@ -39,8 +39,8 @@ export default function PrivacyPage() {
                 We collect only the information you choose to submit through the
                 booking request form. The form currently asks for your name, email
                 address, phone number, vehicle details, preferred booking date,
-                preferred booking time, selected service, and any extra message
-                you include.
+                preferred booking time, service address, selected service, and
+                any extra message you include.
               </p>
               <p className="mt-3 text-muted">
                 The form also sends a subject line for the booking request and uses
