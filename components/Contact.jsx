@@ -9,6 +9,45 @@ const fieldClass =
 
 const labelClass = 'grid gap-1.5 text-xs font-medium uppercase tracking-wider text-muted';
 
+const SERVICE_AREA_CITIES = [
+  'Toronto',
+  'Scarborough',
+  'Etobicoke',
+  'North York',
+  'East York',
+  'York',
+  'Mississauga',
+  'Brampton',
+  'Caledon',
+  'Markham',
+  'Vaughan',
+  'Richmond Hill',
+  'Aurora',
+  'Newmarket',
+  'Whitchurch-Stouffville',
+  'Stouffville',
+  'King City',
+  'King',
+  'East Gwillimbury',
+  'Georgina',
+  'Pickering',
+  'Ajax',
+  'Whitby',
+  'Oshawa',
+  'Clarington',
+  'Bowmanville',
+  'Uxbridge',
+  'Scugog',
+  'Port Perry',
+  'Brock',
+  'Burlington',
+  'Oakville',
+  'Milton',
+  'Halton Hills',
+  'Georgetown',
+  'Acton',
+];
+
 function formatPhone(value) {
   const digits = value.replace(/\D/g, '').slice(0, 10);
 
@@ -192,11 +231,9 @@ export default function Contact() {
                   />
                 </label>
                 <datalist id="service-area-cities">
-                  <option value="Toronto" />
-                  <option value="Scarborough" />
-                  <option value="Pickering" />
-                  <option value="North York" />
-                  <option value="Markham" />
+                  {SERVICE_AREA_CITIES.map((city) => (
+                    <option key={city} value={city} />
+                  ))}
                 </datalist>
               </div>
               <select
